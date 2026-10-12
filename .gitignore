@@ -1,0 +1,50 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+credentials.json
+secrets.yaml
+client_secret*.json
+
+# Private keys and certificates
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Databases and runtime data
+*.sqlite3
+*.db
+data/
+logs/
+*.log
+
+# OS & Editor files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
